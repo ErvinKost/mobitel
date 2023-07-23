@@ -231,6 +231,14 @@ section.contact a {
     transition: filter 2s cubic-bezier(.77,.28,.42,.93);
     will-change: filter;
 }
+section.contact a {
+    transition: transform 3s ease; /* Add a smooth transition for the rotation effect */
+}
+
+section.contact a:hover {
+    color: #f2e9f7;
+    transform: rotate(3600deg); /* Change the angle as per your preference */
+}
 
 
 /* responsive */
