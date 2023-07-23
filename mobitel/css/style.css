@@ -267,7 +267,7 @@ section.contact a {
         padding: var(--gutter); /* Adjust padding for smaller screens */
     }
     section.contact a {
-        font-size: 40px;
+        font-size: 30px;
     }
     section.about .empty {
         display: none; /* Hide the empty element on smaller screens */
